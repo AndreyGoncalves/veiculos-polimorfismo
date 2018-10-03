@@ -17,7 +17,8 @@ public class Principal {
         Veiculo h = new Pampa("LS");
 
 
-        a.acelerar(10);
+        a.acelerar(30);
+        a.acelerar(2);
         b.acelerar(10);
         c.acelerar(10);
         e.acelerar(10);
@@ -28,6 +29,7 @@ public class Principal {
         e.esvaziarLastro();
 
         ((Ferrari) f).acelerar(1);
+        System.out.println("velocidade f:" + ((Ferrari) a).getVelocidade_atual());
 
         Ferrari i = (Ferrari) f;
         i.abrirCapota();
